@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none; 
+    box-sizing: border-box;
+    outline: none;
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    padding: 1rem;
+
+}
+.card{
+   min-height: 80vh;
+    width: 70%; 
+    background-color: #222;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    box-shadow:all 0.2rem   ;
+    padding: 1rem;
+   
+    border-radius: 0.6rem;
+   
+    
+}
+.card-tittle{
+    margin: 0.1rem;
+    padding-bottom: 0.3rem;
+}
+input{
+    border: none; 
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 75%;
+    transition: all 0.3s;
+}
+.btn{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    background-color: coral;
+    width: 20%;
+    color: antiquewhite;
+}
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+   
+}
+.btnn{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    background-color: coral;
+    
+    color: antiquewhite;
+}
+.btnn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+   
+}
+.li-style{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0.6rem; 
+    margin: 1rem 0;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+
+
+}
+.li-style:hover{
+    background-color: #111;
+}
+.bg-success{
+   margin: 0.5rem 0; 
+   padding: 0.5rem; 
+   color: black;
+   background-color: #ddffdd;
+   border-left: 6px solid #04aa6d;
+    border-radius: 0.4rem;
+}
+.bg-danger{
+    margin: 0.5rem 0; 
+    padding: 0.5rem; 
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid rgb(213, 89, 89);
+     border-radius: 0.4rem;
+ }
